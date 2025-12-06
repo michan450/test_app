@@ -1,0 +1,114 @@
+.header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header__logo {
+  text-decoration: none;
+  color: #e4a78f;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+.contact-form__content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+
+.contact-form__heading h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  color: #7a6b63;
+}
+
+
+.confirm-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+.confirm-table th,
+.confirm-table td {
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+
+.confirm-table th {
+  width: 30%;
+  background-color: #c0b4a4;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+
+.confirm-table td {
+  background-color: #f9f9f9;
+}
+
+
+.form__button button {
+  background-color: #7a6b63;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+.form__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;   
+  margin-top: 40px;
+}
+
+
+.btn-submit {
+  background-color: #7a6b63;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.btn-return {
+  background-color: #c0b4a4;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-submit,
+.btn-return {
+  width: 200px;     
+  padding: 12px 0;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+.btn-submit:hover,
+.btn-return:hover {
+  opacity: 0.8;
+}

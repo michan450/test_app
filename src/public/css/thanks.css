@@ -1,0 +1,46 @@
+.thanks-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh; 
+        padding: 20px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    
+    .thanks-wrapper h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+        line-height: 1.4;
+    }
+
+    
+    .btn-home {
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: #7b543a;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    .btn-home:hover {
+        background-color: #5a4a40;
+    }
+
+    
+    @media (max-width: 600px) {
+        .thanks-wrapper h2 {
+            font-size: 20px;
+        }
+        .btn-home {
+            width: 80%;
+            font-size: 14px;
+        }
+    }

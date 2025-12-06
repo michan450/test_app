@@ -1,0 +1,128 @@
+/* 全体 */
+body {
+  background: #f8f8f8;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #333;
+}
+
+/* ヘッダー */
+.header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header__logo {
+  text-decoration: none;
+  color: #e5b195;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* メインコンテンツの中央寄せ */
+.contact-form__content {
+  width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 40px 60px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+/* Contact タイトル */
+.contact-form__heading h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+/* 各フォーム行 */
+.form__group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+/* 左側のラベル */
+.form__label {
+  width: 25%;
+  font-size: 15px;
+  text-align: left;
+}
+
+/* 右側入力欄 */
+.form__input-area,
+.form__input--name,
+.form__radio-group,
+.form__input--tel {
+  width: 70%;
+}
+
+.form__input-area input,
+.form__input-area select,
+.form__input-area textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* 姓・名を横並び */
+.form__input--name {
+  display: flex;
+  gap: 15px;
+}
+
+.form__input--name input {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* 性別ラジオ */
+.form__radio-group label {
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+/* 電話番号（3分割） */
+.form__input--tel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form__input--tel input {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* テキストエリア */
+textarea {
+  resize: vertical;
+}
+
+/* ボタン */
+.form__button {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.form__button-submit {
+  padding: 12px 40px;
+  font-size: 16px;
+  color: #fff;
+  background: #6b6b6b;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form__button-submit:hover {
+  opacity: 0.8;
+}

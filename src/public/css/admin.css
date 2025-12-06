@@ -1,0 +1,171 @@
+.admin-header {
+    width: 100%;
+    background-color: #ffffff; 
+    padding: 6px 0;
+    text-align: center;
+    color: #cd856b;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-bottom: 2px solid #ccc;
+}
+
+.admin-logo {
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+}
+.admin-subheader {
+    width: 100%;
+    text-align: center;       
+    color: #dd856d;            
+    padding: 8px 0;
+    font-size: 30px;
+    font-weight: bold;        
+    border-bottom: 1px solid #ffffff; 
+}
+.logout-form {
+    margin: 0;
+    justify-content: space-between;
+}
+
+.btn-logout {
+    background-color: #8ad0de;   
+    color: #3c332d;           
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;  
+}
+
+.btn-logout:hover {
+    background-color: #f0f0f0;
+}
+
+.search-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.search-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.search-input,
+.search-select {
+    width: 180px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.btn-search,
+.btn-reset,
+.btn-export {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn-search {
+    background-color: #3c332d;
+    color: #fff;
+}
+
+.btn-reset {
+    background-color: #f0f0f0;
+    color: #3c332d;
+}
+.btn-export {
+    background-color: #3c332d;
+    color: #fff;
+}
+
+
+.btn-search:hover { background-color: #2b251f; }
+.btn-reset:hover { background-color: #e0e0e0; }
+.btn-export:hover { background-color: #2b251f; }
+
+.export-row {
+    text-align: left; 
+}
+.table-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.admin-table th,
+.admin-table td {
+    padding: 10px 12px;
+    border: 1px solid #f59d9d89;
+}
+
+.admin-table th {
+    background-color: #cd8585;
+}
+
+.admin-table tr:hover {
+    background-color: #ef9b9b;
+}
+
+.btn-detail {
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #925127;
+    color: #fbcece;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.btn-detail:hover {
+    background-color: #2b251f;
+}
+.admin-table th:nth-child(1),
+.admin-table td:nth-child(1) { width: 180px; } /* お名前 */
+.admin-table th:nth-child(2),
+.admin-table td:nth-child(2) { width: 100px; } /* 性別 */
+.admin-table th:nth-child(3),
+.admin-table td:nth-child(3) { width: 220px; } /* メールアドレス */
+.admin-table th:nth-child(4),
+.admin-table td:nth-child(4) { width: 300px; } /* お問い合わせ内容 */
+.admin-table th:nth-child(5),
+.admin-table td:nth-child(5) { width: 100px; } /* 詳細ボタン */
+
+.admin-table th {
+    background-color: #eba9a9;
+}
+
+#modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+

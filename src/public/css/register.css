@@ -1,0 +1,111 @@
+.header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header__logo {
+  text-decoration: none;
+  color: #e4a78f;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.register-header {
+    width: 100%;
+    background-color: #ffffff; 
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    color: #cd856b;
+}
+
+
+.btn-login {
+    position: absolute;
+    right: 20px;   
+    padding: 8px 16px;
+    background-color: #e29e82ff;
+    color: #fff;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.btn-login:hover {
+    background-color: #5a4b40;
+}
+
+
+body {
+    font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+    background: #f1ece5;
+    margin: 0;
+    padding: 0;
+}
+
+.register-wrapper {
+    max-width: 500px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.site-logo {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.page-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.form-card {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background: #3c332d;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.error {
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    margin-top: 5px;
+}
