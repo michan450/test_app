@@ -12,6 +12,14 @@
 ・php artisan key:generate
 ・php artisan migrate
 
+下記の通り.envを変更
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel_db
+DB_USERNAME=laravel_user
+DB_PASSWORD=laravel_pass
+
 
 ## 使用技術（実行環境）
 ・php:8.1-fpm
